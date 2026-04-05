@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ':*)",
+      "Bash(powershell -Command ':*)",
+      "Bash(wc -c \"c:/Users/USER/.claude/projects/c--Users-USER-Desktop-BLACKGOLD/fa3fa01d-6006-4086-8a91-f5ee2721b6b6/tool-results/\"*.txt)",
+      "Bash(grep -l \"iVBORw0KGgoAAAANSUhEUgAABKIAAAKZCAIAAAAEaxSJ\" \"c:/Users/USER/.claude/projects/c--Users-USER-Desktop-BLACKGOLD/fa3fa01d-6006-4086-8a91-f5ee2721b6b6/tool-results/\"*.txt)",
+      "Bash(powershell -File -)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:/Users/USER/Desktop/BLACKGOLD/restore.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"c:/Users/USER/Desktop/BLACKGOLD/apply_changes.ps1\")"
+    ]
+  }
+}
